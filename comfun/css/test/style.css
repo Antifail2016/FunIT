@@ -1,0 +1,30 @@
+
+*::selection{
+   background-color: var(--blue);
+   color:var(--white);
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+section{
+   padding:3rem 2rem;
+}
+
+
+
+
+
+.products .box-container{
+   max-width: 1200px;
+   margin:0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 30rem);
+   align-items: flex-start;
+   gap:1.5rem;
+   justify-content: center;
+}
+
+
